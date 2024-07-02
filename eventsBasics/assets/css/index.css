@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 60vw;
+  height: 30vh;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+}
+
+#active-button {
+  /* border: none; */
+  background-color: indigo;
+  text-align: center;
+  color: white;
+  width: 90px;
+  height: 40px;
+  border-radius: 5%;
+}
+#active-button:active {
+    background-color: lawngreen;
+}
